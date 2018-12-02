@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="header.css">
+
+    <link rel="stylesheet" href="zhuche.css">
+    <script src="jquery.min.js"></script>
+    <script src="checkReg.js"></script>
+    <title>注册页面</title>
+</head>
+
+<body>
+
+    <div id="header">
+        <div id="header-content" class="clearfix1">
+            <ul class="nul">
+                <li>
+                    <a href="#" class="fl">帮助中心</a>
+                </li>
+                <li>
+                    <a href="#" class="fl">下载</a>
+                </li>
+                <li>
+                    <a href="index.html" class="fl">注册</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="nav">
+        <ul class="clearfix">
+            <li>
+                <a href="#">首页</a>
+            </li>
+            <li>
+                <a href="myCourses.html">主要课程</a>
+            </li>
+            <li>
+                <a href="#">关于我们</a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="container" class="clearfix">
+        <div id="main-left">
+            我是广告轮播
+        </div>
+        <div id="main-right">
+            <form id="login-form" method="post" action="login.html">
+                <legend>
+                    用户注册
+                </legend>
+                <div class="login-form-item clearfix">
+                    <label class="form-label" id="userlabel" for="username"></label>
+                    <input type="text" name="username" id="username" placeholder="以字母开头，6~8位字母、数字">
+                </div>
+                <div class="tips"></div>
+                <div class="login-form-item clearfix">
+                    <label class="form-label" id="pwdlabel" for="password"></label>
+                    <input type="password" name="password" id="password" placeholder="8~12位字符，区分大小写">
+                </div>
+                <div class="tips"></div>
+                </br>
+                <div class="pro"  style="font-size:15px;float:right;">
+                    <input type="checkbox">我已阅读并同意<a href="#">平台用户协议</a>
+                </div>
+                <button disabled="disabled" class="clearfix">
+                    注册
+                </button>
+            </form>
+
+        </div>
+    </div>
+</body>
+
+</html>

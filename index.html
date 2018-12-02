@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="login.css">
+    <script src="jquery.min.js"></script>
+    <script src="check.js"></script>
+    <script src="hover.js"></script>
+    <title>6.2登录页面</title>
+</head>
+
+<body>
+
+    <div id="header">
+        <div id="header-content" class="clearfix1">
+            <ul class="nul">
+                <li>
+                    <a href="#" class="fl">帮助中心</a>
+                </li>
+                <li>
+                    <a href="#" class="fl">下载</a>
+                </li>
+                <li>
+                    <a href="zhuche.html" class="fl">注册</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="nav">
+        <ul class="clearfix">
+            <li>
+                <a href="#">首页</a>
+            </li>
+            <li>
+                <a href="myCourses.html">主要课程</a>
+            </li>
+            <li>
+                <a href="#">关于我们</a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="container" class="clearfix">
+        <div id="main-left">
+            我是广告轮播
+        </div>
+        <div id="main-right">
+            <form id="login-form" method="post" action="myCourses.html">
+                <legend>
+                    用户登录
+                </legend>
+                <div class="login-form-item clearfix">
+                    <label class="form-label" id="userlabel" for="username"></label>
+                    <input type="text" name="username" id="username">
+                </div>
+                <div class="tips"></div>
+                <div class="login-form-item clearfix">
+                    <label class="form-label" id="pwdlabel" for="password"></label>
+                    <input type="password" name="password" id="password">
+                </div>
+                <div class="tips"></div>
+                <button type="submit" class="clearfix">
+                    登录
+                </button>
+            </form>
+            
+        </div>
+    </div>
+
+<div id="bannerWrap"><img src="img/banner.jpg" width="1160px" height="578px" alt="校庆"></div>
+
+</body>
+
+</html>

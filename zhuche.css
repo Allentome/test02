@@ -1,0 +1,89 @@
+button{
+    display:inline-block;
+    width:310px;
+    line-height:38px;
+    letter-spacing: 20px;
+    font-size:20px;
+    border:0;
+    margin-left:14%;
+    margin-top: 10px;
+}
+.btnEnabled{
+    background-color: #EE4000;
+    color:white;
+}
+#container{
+    margin-top:40px;
+}
+#main-left{
+    float:left;
+    width:624px;
+    height:324px;
+    border:1px solid #EE4000;
+}
+#main-right{
+    float:left;
+    width:360px;
+    height:324px;
+    margin-left:25px;
+}
+legend{
+    line-height:50px;
+    margin-top:20px;
+    margin-left:15%;
+    font-size:20px;
+}
+.login-form-item{
+    margin:20px 0px 0px 50px;
+    border:1px solid white;
+}
+.login-form-item span{
+    display:inline-block;
+    width:25%;
+    text-align:right;
+    letter-spacing:10px;
+}
+.login-form-item input{
+    display:inline-block;
+    width:265px;
+    text-align:left;
+    line-height:30px;
+}
+.form-label{
+
+    float:left;
+    z-index:3;
+    width:38px;
+    height:38px;
+    border-right:1px solid #bdbdbd;
+    background:url(img/form-icons.png) no-repeat;
+}
+#pwdlabel{
+    background-position: -48px 0;
+}
+
+.tips{
+    margin-left:49px;
+    width:300px;
+
+    line-height:28px;
+    height:12px;
+    text-align:left;
+    color:red;
+    font-size:16px;
+}
+
+#username{
+    float: left;
+    height:33px;
+  
+}
+#password{
+    float:left;
+    height:33px;
+   
+}
+.warning{
+    border:1px solid red;
+    
+}

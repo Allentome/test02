@@ -1,0 +1,93 @@
+
+ASUS@DESKTOP-EMN1A9U MINGW64 ~/Desktop
+$ git clone https://github.com/Allentome/test01.git
+Cloning into 'test01'...
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 7 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (7/7), done.
+
+ASUS@DESKTOP-EMN1A9U MINGW64 ~/Desktop
+$ cd Allentome
+bash: cd: Allentome: No such file or directory
+
+ASUS@DESKTOP-EMN1A9U MINGW64 ~/Desktop
+$ cd Allen
+
+ASUS@DESKTOP-EMN1A9U MINGW64 ~/Desktop/Allen
+$ cd ../
+
+ASUS@DESKTOP-EMN1A9U MINGW64 ~/Desktop
+$ cd test01
+
+ASUS@DESKTOP-EMN1A9U MINGW64 ~/Desktop/test01 (master)
+$ git add .
+
+ASUS@DESKTOP-EMN1A9U MINGW64 ~/Desktop/test01 (master)
+$ git commit -m "test01"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'ASUS@DESKTOP-EMN1A9U.(none)')
+
+ASUS@DESKTOP-EMN1A9U MINGW64 ~/Desktop/test01 (master)
+$ ^C
+
+ASUS@DESKTOP-EMN1A9U MINGW64 ~/Desktop/test01 (master)
+$ git config --global user.email "610314595@qq.com"
+
+ASUS@DESKTOP-EMN1A9U MINGW64 ~/Desktop/test01 (master)
+$ git config --global user.name "Allentome"
+
+ASUS@DESKTOP-EMN1A9U MINGW64 ~/Desktop/test01 (master)
+$ git commit -m "test01"
+[master 6d870a1] test01
+ 18 files changed, 819 insertions(+)
+ create mode 100644 check.js
+ create mode 100644 checkReg.js
+ create mode 100644 common.css
+ create mode 100644 header.css
+ create mode 100644 hover.js
+ create mode 100644 img/banner.jpg
+ create mode 100644 img/form-icons.png
+ create mode 100644 img/password.png
+ create mode 100644 img/sanjiao.png
+ create mode 100644 img/sanjiao1.png
+ create mode 100644 img/username.png
+ create mode 100644 index.html
+ create mode 100644 login.css
+ create mode 100644 myCourses.css
+ create mode 100644 myCourses.html
+ create mode 100644 myCourses.js
+ create mode 100644 zhuche.css
+ create mode 100644 zhuche.html
+
+ASUS@DESKTOP-EMN1A9U MINGW64 ~/Desktop/test01 (master)
+$ git pull origin master
+From https://github.com/Allentome/test01
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+ASUS@DESKTOP-EMN1A9U MINGW64 ~/Desktop/test01 (master)
+$ git push origin master
+Enumerating objects: 22, done.
+Counting objects: 100% (22/22), done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (21/21), done.
+Writing objects: 100% (21/21), 946.64 KiB | 27.05 MiB/s, done.
+Total 21 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), done.
+To https://github.com/Allentome/test01.git
+   dd0caf0..6d870a1  master -> master
+
+ASUS@DESKTOP-EMN1A9U MINGW64 ~/Desktop/test01 (master)
+$

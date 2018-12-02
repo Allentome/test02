@@ -1,0 +1,103 @@
+#main{
+    width:1024px;
+    margin:0 auto;
+    margin-top: 40px;
+    height:1024px;
+}
+#courses{
+    width:100%;
+    border-top:2px soild;
+    border-bottom:collapse;
+
+}
+#courses span{
+    display: inline-block;
+    width:15%;
+}
+#courses span:nth-child(1){
+    width:10%;
+}
+#courses div{
+    line-height:55px;
+    border-top:1px solid #888;
+
+}
+#courses div:first-child{
+    font-weight:bold;
+    border-bottom:2px solid;
+}
+.line{
+    position: relative;
+}
+.mask{
+    border:0;
+    width:100%;
+    position: absolute;
+    left:0;
+    top:0;
+    background-color:rgba(0,0,0,0.7);
+    color:white;
+}
+.mask button{
+    width:50px;
+    margin-left:10px;
+}
+.focused{
+    background-color: gray;
+}
+.fixed{
+    position:fixed;
+    top:32px;
+    left:248.5px;
+    z-index: 6;
+}
+#selectwrap{
+    float: left;
+   
+}
+#selectwrap{
+    float: left;
+    margin-left:315px;
+}
+.del{
+    margin-top:20px;
+    margin-right:128px;
+    float:right;
+}
+#selectAll{
+    width:100px;
+}
+/* 
+.nav-a{
+    color:white;
+    display:block;
+    width:100%;
+    height:100%;
+}
+#nav li{
+    float:left;
+    width:120px;
+    border-right:1px dottrd white;
+    z-index:99;
+} */
+.semest-divider{
+    background-color:#eee;
+    color:#EE4000;
+    text-align:left;
+    line-height:28px !important;
+    padding-left:40px;
+    cursor:pointer;
+}
+.semest-divider span{
+    margin-right: 10px;
+}
+.arrow{
+    display:lnline-block;
+    width:25px !important;
+    height:15px;
+    background:url(img/sanjiao1.png) no-repeat;
+}
+.arrowUp{
+    background:url(img/sanjiao.png) no-repeat !important;
+}
+

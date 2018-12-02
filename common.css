@@ -1,0 +1,32 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    text-align:center;
+    font: 16px Arial, "微软雅黑" ,sans-serif;
+}
+#container{
+    width:1024px;
+    margin: auto;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.clearfix:after{
+    content: "";
+    display:block;
+    visibility:hidden;
+    clear: both;
+}
+.semester-divider{
+    background-color: #eee;
+    color:#EE4000;
+    text-align:left;
+    line-height:28px !important;
+    
+}
+
